@@ -1,4 +1,4 @@
-package com.shopme.site.ShopProject;
+package com.shopme.common.entity.ShopProject;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

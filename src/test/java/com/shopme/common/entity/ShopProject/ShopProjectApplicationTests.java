@@ -1,4 +1,4 @@
-package com.shopme.site.ShopProject;
+package com.shopme.common.entity.ShopProject;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

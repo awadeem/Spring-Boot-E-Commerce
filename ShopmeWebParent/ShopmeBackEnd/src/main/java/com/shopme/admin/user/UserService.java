@@ -35,4 +35,12 @@ public class UserService {
         String encodedPassword = passwordEncoder.encode(user.getPassword());
         user.setPassword(encodedPassword);
     }
+/**    The comparison of the userByEmail object against null here.If it returns true,
+    that means the user email is unique, because userByEmail is null...
+    meaning that no existing user in the database having this email.
+    Otherwise, if the userByEmail object is not null that means the given email is not unique*/
+    public boolean isEmailUnique(String email){
+        User userByEmail = userRepository.getUserByEmail(email);
+        return userByEmail==null;
+    }
 }

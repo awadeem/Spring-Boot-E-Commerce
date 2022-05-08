@@ -5,6 +5,8 @@
 	<groupId>com.shopme</groupId>
 	<artifactId>ShopProject</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+<!--	the packaging type must be pom because this is a-->
+<!--	multi-module project. And it is the root project that will contain modules-->
 	<packaging>pom</packaging>
 	<name>ShopProject</name>
 	<description>Root project</description>

@@ -55,6 +55,7 @@
             <artifactId>jquery</artifactId> <!-- for jquery -->
             <version>3.4.1</version>
         </dependency>
+<!--        webjars-locator-core dependency for the discovery and reference of Bootstrap and jQuery files-->
         <dependency>
             <groupId>org.webjars</groupId>
             <artifactId>webjars-locator-core</artifactId>
